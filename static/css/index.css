@@ -148,5 +148,13 @@ body {
   font-size: smaller;
 }
 
+.center-image {
+  display: flex;
+  justify-content: center; /* 水平居中 */
+  align-items: center; /* 垂直居中，如果需要的话 */
+}
 
-
+.stanford-red-bold-text {
+  color: #AA2639;
+  font-weight: bold;
+}

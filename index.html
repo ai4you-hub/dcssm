@@ -132,18 +132,27 @@
       <br>
         <ul>
           <li>
+            <p class="stanford-red-bold-text" style="text-align: justify;">
+              Key Question 1: What are the components of the DeepConv family?
+              </p>
             <p style="text-align: justify;">
               <strong>Deconstructionism:</strong> This paper deconstructs the <em>DeepConv family</em> into a unified <strong><em>Meta DeepConv</em></strong> architecture based on <em>DeepConv Encoder</em> and <em>Context-aware Block</em>. From this fresh perspective, we introduce the effective and efficient HAR model, DeepConvSSM.
             </p>
           </li>
           <br>
           <li>
+            <p class="stanford-red-bold-text" style="text-align: justify;">
+              Key Question 2: How to better spatiotemporal modeling?
+              </p>
             <p style="text-align: justify;">
-              <strong>Novel Architecture:</strong> To address the generalization issues of the <em>DeepConv Encoder</em>, we propose a simple and scalable CBRM Encoder with modern design, potentially enhancing spatiotemporal modeling. Unlike previous <em>Context-aware blocks</em> based on Attention, RNN, or GNN, we present the Spatio-Temporal State Space Model, <strong>ST Mamba</strong>, which firstly uses temporal and spatial scanning to jointly model activity state.
+              <strong>Novel Network:</strong> To address the generalization issues of the <em>DeepConv Encoder</em>, we propose a simple and scalable CBRM Encoder with modern design, potentially enhancing spatiotemporal modeling. Unlike previous <em>Context-aware blocks</em> based on Attention, RNN, or GNN, we present the Spatio-Temporal State Space Model, <strong>ST Mamba</strong>, which firstly uses temporal and spatial scanning to jointly model activity state.
             </p>
           </li>
           <br>
           <li>
+            <p class="stanford-red-bold-text" style="text-align: justify;">
+              Key Question 3: Can CNN and SSM complement each other in HAR task?
+              </p>
             <p style="text-align: justify;">
               <strong>Complementary Advantages:</strong> This work introduces a new activity recognition architecture, <strong>CNN-SSM</strong>, demonstrating their complementary strengths. The CNN extracts better embeddings, while the SSM optimizes spatiotemporal activity features. Importantly, DeepConvSSM outperforms state-of-the-art HAR models while maintaining a low computational burden and space complexity.
             </p>
@@ -162,7 +171,7 @@
         <h2 class="title is-3">Abstract</h2>
         <div class="content has-text-justified">
           <p>
-            We introduce the novel structure called DeepConvSSM can serve as activity recognizer, surpassing previous state-of-the-art models (Up to 8.5%), and bringing the new network type CNN-SSM for Human Activity Recognition (HAR). Reviewing HAR models, the widely known DeepConvLSTM and its derived models (i.e. DeepConv Family) have been prominent. However, those models still have two main limits: (1) redundant feature extractor, and (2) inefficient spatio-temporal modeling. In this paper, we firstly hypothesize that the Meta DeepConv is a general HAR architecture composed of a DeepConv Encoder and a Context-aware Block. To address the lack of generalization in the DeepConv Encoder, we upgrades it to a simple yet efficient Modern DeepConv Encoder to extract pathify embeddings. From the perspective of the Context-aware Block, we propose the new Spatio-Temporal Mamba (ST Mamba), which for the first time leverages the State Space Model (SSM) to jointly model the temporal and spatial information contained in activity sensor. Interestingly, ST Mamba has shown excellent performance across various sensor modalities, revealing the potential for better modeling of HAR tasks.
+            Without bells and whistles, we introduce the novel structure called DeepConvSSM can serve as activity recognizer, surpassing previous state-of-the-art models (Up to 8.5%), and bringing the new network type CNN-SSM for Human Activity Recognition (HAR). Reviewing HAR models, the widely known DeepConvLSTM and its derived models (i.e. DeepConv Family) have been prominent. However, those models still have two main limits: (1) redundant feature extractor, and (2) inefficient spatio-temporal modeling. In this paper, we firstly hypothesize that the Meta DeepConv is a general HAR architecture composed of a DeepConv Encoder and a Context-aware Block. To address the lack of generalization in the DeepConv Encoder, we upgrades it to a simple yet efficient Modern DeepConv Encoder to extract pathify embeddings. From the perspective of the Context-aware Block, we propose the new Spatio-Temporal Mamba (ST Mamba), which for the first time leverages the State Space Model (SSM) to jointly model the temporal and spatial information contained in activity sensor. Interestingly, ST Mamba has shown excellent performance across various sensor modalities, revealing the potential for better modeling of HAR tasks.
           </p>
         </div>
       </div>
@@ -179,32 +188,25 @@
       <div id="results-carousel" class="carousel results-carousel">
        <div class="item">
         <!-- Your image here -->
-        <img src="static/images/carousel1.jpg" alt="MY ALT TEXT"/>
+        <img src="static/images/Archs.png" alt="MY ALT TEXT" style="display: block; margin: auto;">
         <h2 class="subtitle has-text-centered">
           First image description.
         </h2>
-      </div>
+        </div>
       <div class="item">
         <!-- Your image here -->
-        <img src="static/images/carousel2.jpg" alt="MY ALT TEXT"/>
+        <img src="static/images/table_one.png" alt="MY ALT TEXT" style="display: block; margin: auto;">
         <h2 class="subtitle has-text-centered">
           Second image description.
         </h2>
       </div>
       <div class="item">
         <!-- Your image here -->
-        <img src="static/images/carousel3.jpg" alt="MY ALT TEXT"/>
+        <img src="static/images/table_two.png" alt="MY ALT TEXT" style="display: block; margin: auto;">
         <h2 class="subtitle has-text-centered">
-         Third image description.
-       </h2>
-     </div>
-     <div class="item">
-      <!-- Your image here -->
-      <img src="static/images/carousel4.jpg" alt="MY ALT TEXT"/>
-      <h2 class="subtitle has-text-centered">
-        Fourth image description.
-      </h2>
-    </div>
+          Second image description.
+        </h2>
+      </div>
   </div>
 </div>
 </div>
@@ -214,90 +216,6 @@
 
 
 
-<!-- Youtube video -->
-<section class="hero is-small is-light">
-  <div class="hero-body">
-    <div class="container">
-      <!-- Paper video. -->
-      <h2 class="title is-3">Video Presentation</h2>
-      <div class="columns is-centered has-text-centered">
-        <div class="column is-four-fifths">
-          
-          <div class="publication-video">
-            <!-- Youtube embed code here -->
-            <iframe src="https://www.youtube.com/embed/JkaxUblCGz0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-<!-- End youtube video -->
-
-
-<!-- Video carousel -->
-<section class="hero is-small">
-  <div class="hero-body">
-    <div class="container">
-      <h2 class="title is-3">Another Carousel</h2>
-      <div id="results-carousel" class="carousel results-carousel">
-        <div class="item item-video1">
-          <video poster="" id="video1" autoplay controls muted loop height="100%">
-            <!-- Your video file here -->
-            <source src="static/videos/carousel1.mp4"
-            type="video/mp4">
-          </video>
-        </div>
-        <div class="item item-video2">
-          <video poster="" id="video2" autoplay controls muted loop height="100%">
-            <!-- Your video file here -->
-            <source src="static/videos/carousel2.mp4"
-            type="video/mp4">
-          </video>
-        </div>
-        <div class="item item-video3">
-          <video poster="" id="video3" autoplay controls muted loop height="100%">\
-            <!-- Your video file here -->
-            <source src="static/videos/carousel3.mp4"
-            type="video/mp4">
-          </video>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-<!-- End video carousel -->
-
-
-
-
-
-
-<!-- Paper poster -->
-<section class="hero is-small is-light">
-  <div class="hero-body">
-    <div class="container">
-      <h2 class="title">Poster</h2>
-
-      <iframe  src="static/pdfs/sample.pdf" width="100%" height="550">
-          </iframe>
-        
-      </div>
-    </div>
-  </section>
-<!--End paper poster -->
-
-
-<!--BibTex citation -->
-  <section class="section" id="BibTeX">
-    <div class="container is-max-desktop content">
-      <h2 class="title">BibTeX</h2>
-      <pre><code>BibTex Code Here</code></pre>
-    </div>
-</section>
-<!--End BibTex citation -->
-
-
   <footer class="footer">
   <div class="container">
     <div class="columns is-centered">
@@ -305,9 +223,7 @@
         <div class="content">
 
           <p>
-            This page was built using the <a href="https://github.com/eliahuhorwitz/Academic-project-page-template" target="_blank">Academic Project Page Template</a> which was adopted from the <a href="https://nerfies.github.io" target="_blank">Nerfies</a> project page.
-            You are free to borrow the of this website, we just ask that you link back to this page in the footer. <br> This website is licensed under a <a rel="license"  href="http://creativecommons.org/licenses/by-sa/4.0/" target="_blank">Creative
-            Commons Attribution-ShareAlike 4.0 International License</a>.
+          Thank you!</a>
           </p>
 
         </div>
